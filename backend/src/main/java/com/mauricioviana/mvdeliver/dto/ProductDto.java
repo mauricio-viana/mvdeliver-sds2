@@ -39,5 +39,25 @@ public class ProductDto {
 	public String getImageUri() {
 		return imageUri;
 	}
-	
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public void setImageUri(String imageUri) {
+		this.imageUri = imageUri;
+	}
+		
 }
